@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    top: 0;
+}
+.navbar{
+    background-color: rgb(65, 63, 63);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.navebarlist{
+    display: flex;
+    width: 100%;
+
+}
+.navbarlinks{
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+    left: 0px;
+    width: 100%;
+}
+
+.navbarlinks li{
+    list-style-type: none;
+    position: relative;
+    margin-top: 1%;
+    
+}
+.navbarlinks li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.boxlink1{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    column-gap: 30%;
+    height: 100%;
+}
+.boxlink1 img{
+    /* border: 2px solid rgb(223, 205, 158); */
+    height: 100%;
+    border-radius: 50%;
+}
+.boxlink2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    column-gap: 10%;
+    right: 50%;
+    top: 20%;
+}
+.boxlink2 li input{
+    border: none;
+    border-radius: 2px;
+    line-height: 23px;
+    width: 100%;
+}
+.boxlink3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 20px;
+    top: 20%;
+    column-gap: 10%;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    width: 10%;
+}
+.boxlink3 li a{
+    color: rgb(255, 208, 0)
+}
+.hide{
+    display: none !important;
+}
+.jobpostmainground{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    background-color: rgba(255, 251, 225, 0.768);
+    width: 100%;
+    /* height: 600px; */
+    height: 100%;
+    /* display: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobpostground{
+    margin: 5% 0 5% 0;
+    height: 100%;
+    width: 800px;
+    /* border: 4px  solid red; */
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* overflow: hidden; */
+}
+.jobbannersection{
+    /* border: 2px solid green; */
+    object-fit: cover;
+    height: 100px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.jobdetailsection form{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    row-gap: 8px;
+}
+.jobdetailsection form input{
+    position: relative;
+    width: 50%;
+    border: 2px solid rgba(128, 128, 128, 0);
+    box-shadow: 2px 2px 5px rgba(52, 51, 51, 0.603);
+    line-height: 25px;
+    margin-left: 10%;
+    border-radius: 4px;
+    padding: 0px 20px;
+}
+.jobdetailsection form div button{
+    background-color: grey;
+    color: white;
+    margin-left: 10%;
+    text-shadow: 2px 2px 5px rgba(245, 124, 124, 0.762);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.paranote{
+    /* background-color: #28a745; */
+    background-color: #28a785b5;
+    color: White;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.maincontentgroundbox{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    height: 100vh;
+}
+.sidebartoggle{
+    /* border: 2px solid green; */
+    width: 10%;
+    height: auto;
+    flex-shrink: 0;
+    box-shadow: 2px 0px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.jobmainlinks{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 40% 0px 0px 20%;
+}
+.jobsettings{
+    margin: 0px 0px 10% 10%;
+}
+.element{
+    margin-left: 10%;
+}
+.element:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.51);
+}
+.maincontentbox{
+    /* border: 2px solid goldenrod; */
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    row-gap: 1.8%;
+    column-gap: 0.7%;
+    margin: 20px 0px 0px 40px;
+}
+.jobpostedcard{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    /* border: 2px solid brown; */
+    box-shadow: 0px 0px 2px black;
+    margin: 5px;
+    border-radius: 10px;
+}
+.jobpostheadername{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-size: 24px;
+    color: goldenrod;
+    z-index: 1;
+}
+.jobpostedcard .header p{
+    position: absolute;
+    color: red;
+    top: 4%;
+    right: 8%;
+    z-index: 1;
+}
+.jobpostedcard .header p span{
+    color: black;
+    z-index: 1;
+}
+
+.jobpostimgbanner{
+    /* border: 2px solid orangered; */
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.jobpostimgbanner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: 2px solid greenyellow; */
+}
+.jobdetails{
+    position: absolute;
+    top: 60%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(47, 44, 40, 0.556);
+    height: 40%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.jobdetails .companyname, .companyvacancy{
+    padding: 10px 20px;
+}
+.companyname i{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+}
+.companyname i span i{
+    position: absolute;
+    right: 0%;
+    transform: translateX(150%);
+}
+.companyvacancy{
+    transform: translateY(-10%);
+}
+.companyvacancy p a{
+    position: absolute;
+    color: goldenrod;
+    background-color: black;
+    padding: 5px 5px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    right: 8%;
+}
+.commentsection{
+    position: relative;
+    border: 2px solid red;
+    width: 100%;
+}
+.commentarea{
+    position: absolute;
+    border: 2px solid green;
+    top: 150%;
+    height: 100%;
+    width: 90%;
+    padding: 0px 5%;
+}
+.footer{
+    background-color: rgb(65, 63, 63);
+    color: white;
+    padding: 2% 0 2% 0;
+}
+.footerground{
+    display: flex;
+    justify-content: space-evenly;
+}
